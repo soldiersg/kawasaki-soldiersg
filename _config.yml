@@ -1,5 +1,5 @@
 title:               川崎ソリュジャーズG
-url:                 https://blog.kanaumi.net
+url:                 https://soldiersg.github.io/kawasaki-soldiersg/
 baseurl:             ""
 
 markdown:            kramdown
@@ -19,8 +19,8 @@ sass:
   style:             :compressed
 
 author:
-  name:              Yoshihiko Kanaumi
-  url:               blog.kanaumi.net
+  name:              Kawasaki Soldiers G
+  url:               https://soldiersg.github.io/kawasaki-soldiersg/
 #  email:             
 
 plugins:
