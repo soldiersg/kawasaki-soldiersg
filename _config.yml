@@ -1,0 +1,29 @@
+title:               川崎ソリュジャーズG
+url:                 https://blog.kanaumi.net
+baseurl:             ""
+
+markdown:            kramdown
+highlighter:         rouge
+
+exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
+
+permalink:           pretty
+paginate:            5
+paginate_path:       /blog/:num
+
+blog:
+  truncated_preview: false
+
+sass:
+  sass_dir:          _sass
+  style:             :compressed
+
+author:
+  name:              Yoshihiko Kanaumi
+  url:               blog.kanaumi.net
+#  email:             
+
+plugins:
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-gist
